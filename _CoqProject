@@ -1,6 +1,11 @@
--R /user/sbernard/home/Work/math-comp-master/mathcomp mathcomp
--R /user/sbernard/home/Work/Struct structs
--R /user/sbernard/home/Work/multinomials-master SsrMultinomials
--R /user/sbernard/home/Work/Lindemann Lind
--R /user/sbernard/home/Work/coquelicot-2.1.2 coquelicot
+-R ../math-comp/mathcomp mathcomp
+-R ../Struct structs
+-R ../multinomials SsrMultinomials
+-R . Lind
+-R ../coquelicot-2.1.2/theories Coquelicot
 
+seq_ajouts.v
+seq_wlog1.v
+seq_wlog2.v
+seq_wlog3.v
+old_trans.v
